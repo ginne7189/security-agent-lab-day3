@@ -1,5 +1,11 @@
 # Day 3 — Orchestration · HITL · Audit
 
+> ⚠️ **이 가이드는 전체 모노레포(security-agent-lab) 기준 CLI 실습 설명입니다.**
+> 단독 Day 저장소에서는 README의 `streamlit run app.py`(버튼 클릭 실습)만 쓰면 됩니다.
+> `check_env.py`·`scripts/`·`orchestrator/`·`mcp_servers/` 는 모노레포에만 있습니다(이 저장소에는 없음).
+> `agents/`·`course/mini_labs/`·`policies/`·`sample_app/` 명령은 이 저장소에서도 그대로 동작합니다.
+
+
 ## 오늘의 목표
 - 멀티에이전트가 "모델 수"가 아니라 "역할/책임 분리"임을 이해한다.
 - Supervisor 로 여러 Agent 를 조율하고, HITL 승인과 Audit 로그를 적용한다.
